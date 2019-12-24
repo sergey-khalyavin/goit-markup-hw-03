@@ -3,12 +3,18 @@ body{
 	font-family: "Playfair Display";
 	font-weight: 400;
 }
-.menu-item{
+.menu{
+	color: #1976D2;
 	font-size: 14px;
 	line-height: 24px;
-	text-align: center;
 	text-transform: uppercase;
 }
+
+.menu .menu-item:hover, 
+.menu .menu-item:focus{
+	color: #FF4081;
+}
+	
 .item{
 	text-transform: uppercase;
 	font-size: 14px;
